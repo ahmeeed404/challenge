@@ -234,6 +234,12 @@ p{
     justify-content: space-around;
     align-items: center;
 }
+#open{
+    display: none;
+}
+#openn{
+    display: none;
+}
 .titre{
     margin-left: 100px;
 }
