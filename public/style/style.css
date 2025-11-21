@@ -190,7 +190,7 @@ p{
 /* this is section 4 */
 .section4{
     width: 100vw;
-    height: 75vh;
+    height: 60vh;
     background-color: #6D48E5;
     display: flex;
     flex-direction: column;
