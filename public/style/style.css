@@ -307,6 +307,8 @@ p{
 
 .reg-section{
     height: 110vh;
+    align-items: center;
+    width: 100%;
     /* background-color: red; */
     
 }
@@ -330,13 +332,27 @@ p{
     flex-direction: column;
     row-gap: 20px;
 }
-
-footer, .topFooter, .copy, .form{
+footer{
     height: 60vh;
+    width: 100%;
+}
+footer, .topFooter, .copy, .form{
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+.section4, .number{
+    width: 100%;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
 
 }
 
