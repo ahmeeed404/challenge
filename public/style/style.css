@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nav-bar{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    color: grey;
+    align-items: center;
+}
+.but{
+    border: none;
+    background-color: #6D48E5;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.left-a a{
+    font-size:large ;
+    
+}
