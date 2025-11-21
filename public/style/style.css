@@ -200,7 +200,13 @@ p{
     padding-top: 50px;
     column-gap: 50px;
 }
-.leftsec4{
-   
+.leftsec5{
+   display: flex;
+   flex-direction: column;
+   row-gap: 30px;
 
+}
+.icon1{
+    display: flex;
+    column-gap: 20px;
 }
