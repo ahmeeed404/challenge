@@ -86,7 +86,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 40px;
+    row-gap: 70px;
 }
 
 .middleSec img {
@@ -111,6 +111,9 @@ p{
 
 .middleSec a {
     color: black;
+    
+}
+.middleSec span{
     text-decoration: underline;
 }
 
