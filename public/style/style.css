@@ -4,10 +4,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-<<<<<<< HEAD
+
 /* this is nav-bar */
-.nav-bar{
-=======
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -18,8 +17,9 @@ p{
     color: gray;
 }
 
+
 .nav-bar {
->>>>>>> ba571b628f903e07bb60e78ada998ad81bd8566b
+
     width: 100vw;
     height: 100px;
     display: flex;
