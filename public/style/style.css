@@ -1,25 +1,41 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
+<<<<<<< HEAD
 /* this is nav-bar */
 .nav-bar{
+=======
+
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+p{
+    font-size: 12px;
+    color: gray;
+}
+
+.nav-bar {
+>>>>>>> ba571b628f903e07bb60e78ada998ad81bd8566b
     width: 100vw;
     height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.nav{
+
+.nav {
     display: flex;
     width: 400px;
     justify-content: space-between;
     color: grey;
     align-items: center;
 }
-.but{
+
+.but {
     border: none;
     background-color: #6D48E5;
     height: 30px;
@@ -27,8 +43,79 @@
     border-radius: 5px;
     color: aliceblue;
 }
-.left-a a{
-    font-size:large ;
+
+.left-a a {
+    font-size: large;
+}
+
+
+.reg-section {
+    padding-top: 15px;
+    height: 60vh;
+    /* background-color: aquamarine;  */
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+
+.reg-section button {
+    width: 10vw;
+    height: 5vh;
+    border: transparent;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.sec1-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.sec1-last {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+}
+
+/* section 3 */
+.middleSec {
+    padding-top: 40px;
+    height: 80vh;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 70px;
+}
+
+.middleSec img {
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3),
+        5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.top3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.middl3 {
+    display: flex;
+    column-gap: 80px;
+
+
+}
+
+.middleSec a {
+    color: black;
     
 }
 /* this is section 3 */
@@ -80,4 +167,26 @@
     padding-left: 30px;
     padding-bottom: 10px;
     color: rgba(0, 0, 0, 0.608);
+.middleSec span{
+    text-decoration: underline;
+}
+
+.middl3 .text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+.last3 {
+    display: flex;
+    column-gap: 80px;
+    flex-direction: row-reverse;
+}
+
+.last3 .text2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
 }
