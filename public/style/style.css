@@ -4,6 +4,10 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+      font-family: "Roboto", sans-serif;
+ 
+}
 .nav-bar{
     width: 100vw;
     height: 100px;
@@ -28,5 +32,37 @@
 }
 .left-a a{
     font-size:large ;
+}
     
+
+.reg-section{
+    padding-top: 15px;
+    height: 60vh;
+     /* background-color: aquamarine;  */
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+
+.reg-section button{
+    width: 10vw;
+    height: 5vh;
+    border: transparent;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.sec1-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.sec1-last{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
 }
