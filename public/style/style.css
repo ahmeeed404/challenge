@@ -245,7 +245,7 @@ p{
 .titre{
     margin-left: 100px;
 }
-<<<<<<< HEAD
+
 
 .lastSec{
     /* background-color: bisque; */
@@ -264,8 +264,7 @@ p{
 .icon1{
     display: flex;
     column-gap: 20px;
-
-=======
+}
 @media(max-width:425px){
     .nav-bar{
         width: 100%;
@@ -298,5 +297,51 @@ p{
         font-size: x-large;
       
     }
->>>>>>> fill
+
+}
+
+footer{
+    /* background-color: #6D48E5; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    padding-top: 30px;
+     margin-top: 50px;
+     background-color: #F6F6FD;
+
+}
+footer input{
+    border: 2px solid #6D48E5;
+    height: 5vh;
+    text-align: center;
+}
+footer button{
+    background-color: #6D48E5;
+    border: transparent;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 8px;
+}
+.form{
+   
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.copy{
+    display: flex;
+    column-gap: 60px;
+    justify-content: space-between;
+    /* align-items: start; */
+}
+.rightCopy{
+    display: flex;
+    column-gap: 20px;
+}
+.copyP{
+    color: #6D48E5;
+    font-size: 15px;
+
 }
