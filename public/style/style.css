@@ -193,7 +193,7 @@ p{
 
 
 .lastSec{
-    background-color: bisque;
+    /* background-color: bisque; */
     display: flex;
     justify-content: center;
     align-items: center;
