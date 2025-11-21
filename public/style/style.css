@@ -266,6 +266,9 @@ p{
     column-gap: 20px;
 }
 @media(max-width:425px){
+    body{
+        width: 170vw;
+    }
     .nav-bar{
         
         height: 80px;
@@ -298,6 +301,25 @@ p{
       
     }
 <<<<<<< HEAD
+
+
+
+
+
+.reg-section{
+    height: 110vh;
+    background-color: red;
+    
+}
+.reg-section button{
+    width: 30vw;
+}
+.sec1-last{
+    row-gap: 20px;
+    flex-direction: column;
+}
+
+
 
 }
 
