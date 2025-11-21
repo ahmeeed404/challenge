@@ -266,7 +266,9 @@ footer{
     flex-direction: column;
     align-items: center;
     row-gap: 40px;
-    padding-top: 15px;
+    padding-top: 30px;
+     margin-top: 50px;
+     background-color: #F6F6FD;
 
 }
 footer input{
@@ -282,6 +284,7 @@ footer button{
     border-radius: 8px;
 }
 .form{
+   
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -289,6 +292,15 @@ footer button{
 
 .copy{
     display: flex;
-    /* justify-content: start; */
+    column-gap: 60px;
+    justify-content: space-between;
     /* align-items: start; */
+}
+.rightCopy{
+    display: flex;
+    column-gap: 20px;
+}
+.copyP{
+    color: #6D48E5;
+    font-size: 15px;
 }
