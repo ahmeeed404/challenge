@@ -4,10 +4,8 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-<<<<<<< HEAD
 /* this is nav-bar */
-.nav-bar{
-=======
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -18,8 +16,8 @@ p{
     color: gray;
 }
 
+
 .nav-bar {
->>>>>>> ba571b628f903e07bb60e78ada998ad81bd8566b
     width: 100vw;
     height: 100px;
     display: flex;
@@ -166,10 +164,9 @@ p{
 .secound-div h2{
     padding-left: 30px;
     padding-bottom: 10px;
-    color: rgba(0, 0, 0, 0.608);
+    color: rgba(0, 0, 0, 0.608);}
 .middleSec span{
-    text-decoration: underline;
-}
+ text-decoration: underline;
 }
 
 .middl3 .text {
@@ -190,4 +187,10 @@ p{
     flex-direction: column;
     row-gap: 10px;
 }
+/* this is section 4 */
+.section4{
+    width: 100vw;
+    height: 50vh;
+    background-color: #6D48E5;
 }
+.parent
